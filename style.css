@@ -24,7 +24,7 @@ header{
 
 }
 
-header nav {
+header nav{
     display: flex;
 }
 
@@ -32,32 +32,32 @@ header nav li {
     margin: 0 15px;
 }
 
-main {
+main{
     margin: 0 auto;
     padding: 2rem;
     width: 40%;
 
 }
-.datos{
+.presentación{
     background-color: aquamarine;
     max-width: 400px;
     max-height: 400px;
     justify-items: center;
 
 }
-.datos img{
+.presentación img{
     max-width: 300px;
     max-height: 300px;
     width: 50%;
-   border-radius: 350px;
-   padding: 30 auto;
+    border-radius: 350px;
+    padding: 30 auto;
 
 }
 
-.datos h1{
+.presentación h1{
     display: inline;
 }
 
-.datos p{
+.presentación p{
     display: inline;
 }
