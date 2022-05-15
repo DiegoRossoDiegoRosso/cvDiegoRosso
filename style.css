@@ -2,23 +2,29 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 a{
     text-decoration: none;
     cursor: pointer;
-    color: black;
+    color: #ffffff;
 }
 
 li{
     list-style: none;
 }
 
+hr{
+    color: #6b705c;
+}
+/* Aqui comienza HEADER */
+
 header{
     width: 100%;
-    background-color: red;
+    background-color: #118ab2;
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-around; 
     align-items: center;
     padding: 20px 20px 20px 80px;
 
@@ -26,38 +32,251 @@ header{
 
 header nav{
     display: flex;
+    width: 700px;
+    margin-left: 170px;
 }
 
 header nav li {
     margin: 0 15px;
+    color: #ffffff;
 }
 
-main{
-    margin: 0 auto;
-    padding: 2rem;
-    width: 40%;
-
+header button{
+    color: #ffffff;
+    background-color: #f72585;
+    border-radius: 1rem;
+    padding: 8px;
+    border-style: solid;
+    border-color: #000000;
+    border: 1rem;
+    cursor: pointer;
 }
+
+/* Empieza la SECCION PRESENTACIÓN */
+
 .presentación{
-    background-color: aquamarine;
-    max-width: 400px;
-    max-height: 400px;
-    justify-items: center;
+    background-color: #ffffff;
+    width: 100%;
 
 }
 .presentación img{
-    max-width: 300px;
-    max-height: 300px;
-    width: 50%;
+    max-width: 150px;
+    max-height: 150px;
     border-radius: 350px;
-    padding: 30 auto;
-
+    margin-top: 8rem;
+    margin-left: 678px;
+    
 }
 
-.presentación h1{
-    display: inline;
+span{
+    font-weight: bold;
 }
-
 .presentación p{
+    text-align: center;
+    max-width: 850px;
+    margin-left: 338px;
+    margin-bottom: 20px;
+    font-size: large;
+    
+}
+.presentación button{
+    width: 120px;
+    margin-left: 699px;
+    margin-bottom: 6rem;
+    padding: 12px 12px;
+    background-color: #ffffff;
+    color: #118ab2;
+    border-radius: 1rem;
+    border-color: #118ab2;
+    border-style: solid;
+    cursor: pointer;
+
+}
+
+.presentación hr{
+    width: 800px;
+    height: 1px;
+    background-color: #a5a58d;
+    border: 0;
+    margin-left: 348px;
+
+}
+/* Empieza la Seccion EXPERIENCIA LABORAL */
+
+.experiencia{
+    width: 700px;
+    background-color:  #ffffff;
+    margin-left: 418px;
+
+}
+
+.experiencia h2{
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    font-size: x-large;
+}
+
+.experiencia hr{
+    height: 1px;
+    background-color: #dad7cd;
+    border: 0;
+    margin-bottom: 1rem;
+    
+}
+
+.experiencia h4{
+    font-weight: bold;
+    color: #6b705c;
+    margin-top: 4px;
+}
+.experiencia .exp{
+    width: 684px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.experiencia h5{
+    background-color:  #118ab2; 
+    color: #ffffff;
     display: inline;
+    font-size: small;
+    border-radius: 1rem;
+    padding: 3px;
+    margin-top: 2px;
+
+.experiencia p{
+    color: #6b705c;
+}
+
+/* Empieza la seccion EDUCACIÓN  */
+
+.educación{
+    width: 700px;
+    background-color: #ffffff;
+    margin-left: 418px;
+
+}
+
+.educación h2{
+    text-align: center;
+    margin-top: 6rem;
+    margin-bottom: 4rem;
+    font-size: x-large;
+}
+
+.educación hr{
+    height: 1px;
+    background-color: #dad7cd;
+    border: 0;
+    margin-bottom: 1rem;
+    
+}
+
+.educación h4{
+    font-weight: bold;
+    color: #a5a58d;
+    margin-top: 4px;
+}
+.educación .edu{
+    width: 684px;
+    display: flex;
+    justify-content: space-between;
+ 
+}
+.educación h5{
+    background-color:#80ed99;
+    color: #ffffff;
+    display: inline;
+    border-radius: 1rem;
+    padding: 4px;
+}
+
+.educación p{
+    color: #6b705c;
+}
+/* Aquí empieza las dos CARDS */
+
+.habilidades{
+    width: 700px;
+    background-color:  #ffffff;
+    margin-left: 418px;
+    display: flex;
+}
+
+.habilidades .hab{
+    width: 300px;
+    height: 250px;
+    background-color: #ffffff;
+    margin: 25px;
+    box-shadow: 0 0 15px 0 #d6ccc2;
+}
+
+.habilidades .cont{
+    width: 300px;
+    height: 250px;
+    background-color: #ffffff;
+    margin: 25px;
+    box-shadow: 0 0 15px 0 #d6ccc2;
+
+}
+
+.habilidades h2{
+   text-align: center;
+   margin-top: 1rem;
+   margin-bottom: 20px;
+}
+
+.habilidades h5{
+    text-align: left;
+    text-transform: uppercase;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 4px;
+
+ }
+ 
+ .habilidades img{
+     width: 30px;
+     height: 30px;
+     margin-top: 4px; */
+     margin-bottom: 2px;
+     margin-left: 25px;
+     ;
+ }
+
+ .habilidades p{
+     display: inline;
+     margin-top:
+     margin-bottom: 1px;
+ }
+/* Aquí empieza la sección HOBBIES*/
+
+.hobbies h2{
+    text-align: center;
+}
+
+.hobbies p{
+    text-align: center;
+    width: 700px;
+    margin-left: 408px;
+    margin-bottom: 20px;
+    color: #6b705c;
+}
+
+.hobbies hr {
+    background-color: #dad7cd;
+    height: 1px;
+    border: 0;
+}
+ /* Aquí empieza el FOOTER */
+
+ footer{
+     margin-top: 5px;
+     margin-left: 734px;
+ }
+ footer img{
+     width: 30px;
+     height: 30px;
+     cursor: pointer;
 }
