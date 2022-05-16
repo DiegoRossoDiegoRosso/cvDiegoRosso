@@ -1,3 +1,5 @@
+/* Aqui esta el CSS de WEB
+
 *{
     margin:0;
     padding:0;
@@ -26,7 +28,7 @@ span{
 
 /* Aqui comienza HEADER */
 
-header{
+/* header{
     width: 100%;
     background-color: #118ab2;
     display: flex;
@@ -59,7 +61,7 @@ header button{
 }
 
 /* Empieza la SECCION PRESENTACIÓN */
-
+/* 
 .presentación{
     background-color: #ffffff;
     width: 100%;
@@ -103,9 +105,9 @@ header button{
     border: 0;
     margin-left: 368px;
 
-}
+} */
 /* Empieza la Seccion EXPERIENCIA LABORAL */
-
+/* 
 .experiencia{
     width: 700px;
     background-color:  #ffffff;
@@ -156,10 +158,10 @@ header button{
     color: #6b705c;
     margin-top: 16px;
     font-size: 14px;
-}
+} */
 
 /* Empieza la seccion EDUCACIÓN  */
-
+/* 
 .educación{
     width: 700px;
     background-color: #ffffff;
@@ -211,7 +213,7 @@ header button{
     margin-top: 16px;
 }
 /* Aquí empieza las dos CARDS */
-
+/* 
 .habilidades{
     width: 700px;
     background-color:  #ffffff;
@@ -277,11 +279,11 @@ header button{
 .cont .mail {
     display: flex;
     height: 28px;
-}
+} */ */
 
 
 /* Aquí empieza la sección HOBBIES*/
-
+/* 
 .hobbies h2{
     text-align: center;
     font-size: x-large;
@@ -302,7 +304,7 @@ header button{
 }
  /* Aquí empieza el FOOTER */
 
- footer{
+ /* footer{
      margin-top: 5px;
      margin-left: 726px;
  }
@@ -310,4 +312,7 @@ header button{
      width: 35px;
      height: 35px;
      cursor: pointer;
-}
+} */ */
+
+/* Aqui esta el CSS de tamaño CELULAR */
+
